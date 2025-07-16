@@ -420,5 +420,6 @@ return [
      */
     'Session' => [
         'defaults' => 'php',
+        'secure' => false
     ],
 ];
