@@ -11,7 +11,7 @@ class UsersTable extends Table
     public function validationDefault(Validator $validator): Validator
     {
         return $validator   
-            ->notEmpty('emai', 'An email is required')
+            ->notEmpty('email', 'An email is required')
             ->email('email')
             ->notEmpty('password', 'A password is required')
             ->notEmpty('role', 'A role is required')
